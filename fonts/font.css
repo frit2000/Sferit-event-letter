@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'TildaSans';
+  src:
+     local('TildaSans-VF'),
+     url(./TildaSans-VF.woff2) format('woff2 supports variations'),
+     url(./TildaSans-VF.woff2) format('woff2-variations');
+    font-display: swap;
+    font-weight: 400 700;
+}

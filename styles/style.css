@@ -1,0 +1,124 @@
+.page {
+  border: 1px solid var(--header-color);
+  margin: auto;
+  inline-size: 982px;
+  font-family: 'TildaSans', sans-serif;
+  background-image: url("../images/background.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sphere {
+  size: 135px;
+}
+
+.logos {
+  display: flex;
+  gap: 32.82px;
+  padding: 50.83px 44.95px; 
+  align-items: center;
+}
+
+.logo {
+  inline-size: 140.56px;
+}
+
+.text-main {
+  font-size: 33.49px;
+  line-height: 47.19px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.initiation-date {
+  margin-block-start: 20px;
+  margin-block-end: 68.59px;
+  font-weight: 700;
+  color: var(--header-color);
+  text-align: center;
+}
+
+.main-header {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 53.58px;
+  line-height: 64.3px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub-header {
+  color: var(--header-color);
+  text-transform: uppercase;
+  font-size: 53.58px;
+  line-height: 64.3px;
+  font-weight: 700;
+  text-align: center; 
+}
+
+.galery {
+  margin-block-start: 34.52px;
+  margin-block-end: 45.63px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.invitation {
+  margin-inline-start: 45px;
+  margin-inline-end: 50px;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.invitation p:nth-child(4),
+.invitation p:nth-child(6){
+  padding-block-start: 50px;
+}
+
+.footer{
+  padding-block-start: 85px;
+  padding-block-end: 68.06px;
+}
+
+.footer__banners{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+}
+
+.footer__banner{
+  display: flex;
+  min-block-size: 114.4px;
+  background-color: var(--accent-color);
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__links {
+  color: var(--header-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 40.19px;
+  line-height: 48.22px;
+  font-weight: 700;
+}
+
+.registration{
+  border-start-end-radius: 11px;
+  border-end-end-radius: 11px;
+}
+
+.agenda {
+  border-start-start-radius: 11px;
+  border-end-start-radius: 11px;
+}
